@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="title">Adarsh Moradiya says</div>
+    <div class="meet">
+        <div class="noOfPart">
+            No. of Participants : <span id="noOfParticipant">0</span>
+        </div>
+        
+        <div class="data">
+            <input type="number" name="" id="requiredParticipantToExit" min="1" value="30" autofocus="autofocus">
+            <input type="button" value="Confirm" id="confirm">
+        </div>
+    </div>
+    <div class="running hide">
+        <div class="subtitle">
+            You Will Leave the meeting automatically when no. of Participants are Less then <span id="exitnumber" >1</span>
+        </div>
+        <div class="cancelButton">
+           <input type="button" value="Cancel" > 
+        </div>
+    </div>
+    <!-- <div class="nomeet hide">
+        <div class="noOfPart">
+            Meeting is not Started.
+        </div>
+    </div> -->
+    <script src="popup.js"></script>
+</body>
+
+</html>

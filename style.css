@@ -1,0 +1,24 @@
+body{
+    width: 200px;
+    background: blueviolet;
+
+}
+.hide {
+    display: none;
+}
+.subtitle {
+    margin: 20px 0px;
+    padding: 0px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+.cancelButton{
+    text-align: center;
+}
+#exitnumber{
+    color: rgb(253, 170, 62);
+}
+.title{
+    color: white;
+}

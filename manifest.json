@@ -1,0 +1,17 @@
+{
+    "name":"Meet Extension",
+    "version":"1.0",
+    "description":"It's about auto leave meeting",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"meet.png"
+    },
+    "icons": {
+        "128": "meet.png"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+    ]
+}
